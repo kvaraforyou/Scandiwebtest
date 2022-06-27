@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addfiletokvaraweb</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container flex">
+            <h1 class="header-name section-title">Product List</h1>
+            <button class="btn box btn-reset header-btn">Save</button>
+            <button class="btn box btn-reset header-btn">Cancel</button>
+        </div>
+     </header>
+ 
+     <main class="container">
+        <form class="form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+            <div class="form-top flex">
+                
+                    <div class="addfileforminput">
+                        SKU  <input class="form-input1" type="text" name="name" placeholder="#sku" required>
+                    </div>
+                    <div class="addfileforminput">
+                        NAME <input class="form-input2" type="text" name="name" placeholder="#name" required>
+                    </div>
+                    <div class="addfileforminput">
+                        Price$ <input class="form-input3" type="text" name="name" placeholder="#price" required>
+                    </div>
+             
+                <div class="type-switcher flex">
+                    <h3 class="type-switcher-name">Type Switcher</h3>
+                 <select class="form-select" name="Type">
+                    <option value="Dimension" disabled selected>Type Switcher</option>
+                   
+                 </select>
+                 
+                </div>
+              
+            </div>
+            
+        </form>
+ 
+     </main>
+     <footer class="footer">
+        <div class="container flex footer-container">
+          <h2 class="footer-name">
+           Scandiweb Test assignment
+          </h2>
+       </div>
+     </footer>
+</body>
+</html>
